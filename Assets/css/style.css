@@ -42,7 +42,7 @@ main {
 }
 
 .login_btn {
-    margin-top: 20px ;
+    margin: 20px 0 ;
 
     background-color: #1877F2;
     color: white;
@@ -53,3 +53,13 @@ main {
 .login_btn:hover {
     background-color: #1847cf;
 }
+
+.forgot {
+    color: #1877F2;
+    text-decoration: none;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
