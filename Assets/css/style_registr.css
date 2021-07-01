@@ -3,7 +3,7 @@
     padding: 0;
 
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
 }
 
 main {
@@ -12,87 +12,18 @@ main {
     align-items: center;
     flex-direction: column-reverse;
 
-
-
-
     width: 90vw;
     height: 100vh;
     margin: auto;
 }
 
-.facebook_auth, #login, .login_btn, .create_btn, #facebook_reg, .reg_form > input, #gender{
+#facebook_reg,
+.create_btn,
+.reg_form > input,
+#b_day {
     border: 1px solid #c9cacc;
     border-radius: 10px;
-}
-
-
-.facebook_auth {
-    text-align: center;
-
-    max-width: 400px;
-    height: 400px;
-}
-
-.facebook {
-    padding: 20px;
-}
-
-#login, .login_btn, .reg_form  #info{
-    width: 350px;
-   
-    margin: 5px 0;
-    padding: 15px;
-
-    font-size: 15px;
-}
-
-.login_btn {
-    margin: 20px 0 ;
-
-    background-color: #1877F2;
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.login_btn:hover {
-    background-color: #1847cf;
-}
-
-.forgot {
-    display: block;
-
-    color: #1877F2;
-    text-decoration: none;
-    padding: 0px;
-}
-
-.forgot:hover, .terms:hover {
-    text-decoration: underline;
-}
-
-
-.forgot::after{
-    margin: 30px 0;
-    content: ' ';
-    display: block;
-    background: #c9cacc;
-    height: 2px;
-}
-
-.create_btn {
-    text-decoration: none;
-    background-color: #42B72A;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: -1px;
-
-    padding: 15px;
-}
-
-.create_btn:hover {
-    background-color: #42A70A;
+    background-color: #eaebee;
 }
 
 #facebook_reg {
@@ -106,18 +37,30 @@ main {
     margin: 20px;
 }
 
-.reg_title_h2{
+.reg_form #info {
+    width: 350px;
+
+    margin: 5px 0;
+    padding: 15px;
+
+    font-size: 15px;
+}
+
+
+.reg_title_h2 {
+    text-align: left;
     margin: 0 15px;
 }
 
 .reg_h4 {
+    text-align: left;
     color: gray;
     font-weight: 500;
 }
 
-.reg_h4::after  {
+.reg_h4::after {
     margin: 10px -20px;
-    content: ' ';
+    content: " ";
     display: block;
     background: #c9cacc;
     height: 2px;
@@ -125,7 +68,7 @@ main {
 
 #name {
     width: 170px;
-   
+
     margin: 5px 0;
     padding: 15px;
 
@@ -137,18 +80,22 @@ main {
     margin: 10px 0;
 }
 
-#b_day{
-        width: 110px;
+#b_day {
+    width: 110px;
 
-        padding: 5px;
-    
-        font-size: 15px;
+    padding: 5px;
+
+    font-size: 15px;
+
+    background-color: white;
 }
 
 #gender {
     padding: 10px;
-}
 
+    border: 1px solid #c9cacc;
+    border-radius: 10px;
+}
 
 .terms_rule {
     margin-top: 20px;
@@ -157,4 +104,23 @@ main {
 
 .terms {
     text-decoration: none;
+}
+
+.terms:hover {
+    text-decoration: underline;
+}
+
+.create_btn {
+    text-decoration: none;
+    background-color: #42b72a;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -1px;
+
+    padding: 15px;
+}
+
+.create_btn:hover {
+    background-color: #42a70a;
 }
