@@ -20,7 +20,7 @@ main {
     margin: auto;
 }
 
-.facebook_auth, #login, .login_btn, .create_btn, #facebook_reg{
+.facebook_auth, #login, .login_btn, .create_btn, #facebook_reg, .reg_form > input, #gender{
     border: 1px solid #c9cacc;
     border-radius: 10px;
 }
@@ -37,7 +37,7 @@ main {
     padding: 20px;
 }
 
-#login, .login_btn {
+#login, .login_btn, .reg_form  #info{
     width: 350px;
    
     margin: 5px 0;
@@ -67,13 +67,12 @@ main {
     padding: 0px;
 }
 
-.forgot:hover {
+.forgot:hover, .terms:hover {
     text-decoration: underline;
 }
 
 
-.forgot::after,
-.reg_h4::after {
+.forgot::after{
     margin: 30px 0;
     content: ' ';
     display: block;
@@ -97,17 +96,65 @@ main {
 }
 
 #facebook_reg {
-    width: 450px;
+    width: 400px;
     height: 550px;
-    background-color: rgb(235, 235, 204);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.reg_form {
+    margin: 20px;
 }
 
 .reg_title_h2{
-    margin: 15px;
+    margin: 0 15px;
 }
 
 .reg_h4 {
-    margin: 10px;
-    color: #c9cacc;
+    color: gray;
+    font-weight: 500;
 }
 
+.reg_h4::after  {
+    margin: 10px -20px;
+    content: ' ';
+    display: block;
+    background: #c9cacc;
+    height: 2px;
+}
+
+#name {
+    width: 170px;
+   
+    margin: 5px 0;
+    padding: 15px;
+
+    font-size: 15px;
+}
+
+.reg_h6 {
+    text-align: left;
+    margin: 10px 0;
+}
+
+#b_day{
+        width: 110px;
+
+        padding: 5px;
+    
+        font-size: 15px;
+}
+
+#gender {
+    padding: 10px;
+}
+
+
+.terms_rule {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.terms {
+    text-decoration: none;
+}
