@@ -44,12 +44,12 @@ main {
     padding: 15px;
 
     font-size: 15px;
+    letter-spacing: -1px;
 }
 
 
-.reg_title_h2 {
+.reg_title_h2, .terms_rule  {
     text-align: left;
-    margin: 0 15px;
 }
 
 .reg_h4 {
